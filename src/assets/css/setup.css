@@ -1,0 +1,47 @@
+@font-face {
+	font-family: oxygen-regular;
+	src: url('./../fonts/Oxygen/oxygen-regular.ttf');
+}
+@font-face {
+	font-family: oxygen-light;
+	src: url('./../fonts/Oxygen/oxygen-light.ttf');
+}
+@font-face {
+	font-family: oxygen-bold;
+	src: url('./../fonts/Oxygen/oxygen-bold.ttf');
+}
+body {
+	font-family: oxygen-regular, oxygen-light, oxygen-bold, sans-serif;
+	background: rgb(88, 209, 142);
+	background: radial-gradient(
+			circle,
+			rgba(88, 209, 142, 1) 0%,
+			rgba(97, 152, 142, 1) 100%
+		)
+		no-repeat fixed;
+	color: #a4d4c1;
+}
+body::-webkit-scrollbar {
+	width: 8px;
+	background-color: #5a7771;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #91c5a8;
+	border-radius: 50px;
+	transition: background-color 480ms ease-in-out;
+}
+body::-webkit-scrollbar-thumb:hover {
+	background-color: #8fb8a1;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+button {
+	border: none;
+	outline: none;
+}
